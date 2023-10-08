@@ -1,0 +1,113 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CollisionHandler_Start_mAED179E54C687952B1789E11B6ED69D193C7A665 (void);
+extern void CollisionHandler_OnCollisionEnter_mD99E24E92FE29FB0C84D6DD902B86A4FBF08E45C (void);
+extern void CollisionHandler_SuccesSequence_mE0666351AF4C1A4E022A5F8DC8918831D0E586DD (void);
+extern void CollisionHandler_CrashSequence_m08AB3A4BCD4F7756CDBD427B10AACD2836630AE9 (void);
+extern void CollisionHandler_ReloadLevel_m4F32F1119CAFB2B45C87F7AE765282CCE74D7936 (void);
+extern void CollisionHandler_NextLevel_m70670C0D88B1618228BE86B9BBD3C28B294F16B3 (void);
+extern void CollisionHandler_Update_m1FAF3CDA1807F02B9B90A2F7DE0389A73B1ECCA3 (void);
+extern void CollisionHandler_RespondToDebugKeys_m3F67339A0BB92C47B508CCA446AB32D1B75A3B8B (void);
+extern void CollisionHandler__ctor_mBBA4C7A5F3AA62FB297A0DD5267341BA4C1524A2 (void);
+extern void Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B (void);
+extern void Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418 (void);
+extern void Movement_ProcessThrust_m00C0C2050876627E007FD4B2F89A26BD7F3511BF (void);
+extern void Movement_StopThrusting_m6C8BD1DBEACE6B814109831E0B83D85A4A8A7160 (void);
+extern void Movement_StartThrusting_m3094F75AE1A3DD806C7A90D6E86E3CCF1E3667DE (void);
+extern void Movement_ProcessRotation_mB5D7361465FD978A987FDA02AACC600519811276 (void);
+extern void Movement_StopSteering_m1D53B1C9BC003FEE3B7313CDA620A3E3F674E249 (void);
+extern void Movement_StartSteer_mE589277E6CEB3E36557998B44740938356F6EA2D (void);
+extern void Movement_RotationFreezer_m1A841CB83C7055E1BDDE60372ECFA15DFF179ED8 (void);
+extern void Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED (void);
+extern void Oscillator_Start_m4C946CB6E5AB5E235B2BAAAA5217696126818513 (void);
+extern void Oscillator_Update_m533CC88E4BFBBF4C6EEB806E12C3A2FCCF69A981 (void);
+extern void Oscillator__ctor_m5A6F89DA8F7B115A1B1A2B0E1ECBEE6A6CD06E99 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[24] = 
+{
+	CollisionHandler_Start_mAED179E54C687952B1789E11B6ED69D193C7A665,
+	CollisionHandler_OnCollisionEnter_mD99E24E92FE29FB0C84D6DD902B86A4FBF08E45C,
+	CollisionHandler_SuccesSequence_mE0666351AF4C1A4E022A5F8DC8918831D0E586DD,
+	CollisionHandler_CrashSequence_m08AB3A4BCD4F7756CDBD427B10AACD2836630AE9,
+	CollisionHandler_ReloadLevel_m4F32F1119CAFB2B45C87F7AE765282CCE74D7936,
+	CollisionHandler_NextLevel_m70670C0D88B1618228BE86B9BBD3C28B294F16B3,
+	CollisionHandler_Update_m1FAF3CDA1807F02B9B90A2F7DE0389A73B1ECCA3,
+	CollisionHandler_RespondToDebugKeys_m3F67339A0BB92C47B508CCA446AB32D1B75A3B8B,
+	CollisionHandler__ctor_mBBA4C7A5F3AA62FB297A0DD5267341BA4C1524A2,
+	Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B,
+	Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418,
+	Movement_ProcessThrust_m00C0C2050876627E007FD4B2F89A26BD7F3511BF,
+	Movement_StopThrusting_m6C8BD1DBEACE6B814109831E0B83D85A4A8A7160,
+	Movement_StartThrusting_m3094F75AE1A3DD806C7A90D6E86E3CCF1E3667DE,
+	Movement_ProcessRotation_mB5D7361465FD978A987FDA02AACC600519811276,
+	Movement_StopSteering_m1D53B1C9BC003FEE3B7313CDA620A3E3F674E249,
+	Movement_StartSteer_mE589277E6CEB3E36557998B44740938356F6EA2D,
+	Movement_RotationFreezer_m1A841CB83C7055E1BDDE60372ECFA15DFF179ED8,
+	Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED,
+	Oscillator_Start_m4C946CB6E5AB5E235B2BAAAA5217696126818513,
+	Oscillator_Update_m533CC88E4BFBBF4C6EEB806E12C3A2FCCF69A981,
+	Oscillator__ctor_m5A6F89DA8F7B115A1B1A2B0E1ECBEE6A6CD06E99,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[24] = 
+{
+	1118,
+	945,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
+	967,
+	1118,
+	1118,
+	589,
+	917,
+	1118,
+	1118,
+	1118,
+	1118,
+	2162,
+	1118,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	24,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
